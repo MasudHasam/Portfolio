@@ -5,7 +5,7 @@ import Route from './Router/Route';
 
 function App() {
   return (
-    <div className="">
+    <div className="w-11/12 mx-auto">
       <Route></Route>
     </div>
   );

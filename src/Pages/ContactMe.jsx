@@ -26,7 +26,7 @@ const ContactMe = () => {
                                 <label className="label">
                                     <span className="label-text">Message</span>
                                 </label>
-                                <input className='h-8' required type="text" placeholder="type your message" className="input input-bordered" />
+                                <input required type="text" placeholder="type your message" className="input input-bordered" />
                             </div>
                             <div className="form-control mt-6">
                                 <button className="btn btn-primary">Send</button>

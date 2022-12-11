@@ -39,19 +39,19 @@ const Home = () => {
             </div>
 
             <div>
-                <div className='bg-orange-400 h-1 '>
+                <div className='bg-orange-400 h-1' data-aos="flip-right" data-aos-duration="2000">
                 </div>
                 <div data-aos="flip-right" data-aos-duration="2000" >
                     <h1 className='font-semibold text-white italic text-center'>About Me</h1>
                 </div>
-                <div className='bg-orange-400 h-1 '>
+                <div className='bg-orange-400 h-1' data-aos="flip-right" data-aos-duration="2000">
                 </div>
                 <div data-aos="fade-up"
                     data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
                     <p>This is Masud Hasan and I  have been  working  as a front-end web  developer for the past 6 months with these flowing technology: HTML, CSS, bootstrap,   tailwind,  javascript, react.js, node.js, express.js, firebase authentication and hosting, and MongoDB database.I'm An industrious person with an aptitude for creating elegant resolutions in the least amount of time. With a
                         proven capability to adjust to both won-starting and collaborative environments while staying attentive to
                         achieving high-quality outcomes under strict deadlines. Eager to get a challenging position at a reputable
-                        company that will enlarge my learning and enhances my developer skills</p>
+                        company that will enlarge my learning and enhances my developer skills... <Link to='/aboutme'><button className='btn btn-xs btn-outline btn-info'>More About Myself</button></Link> </p>
                 </div>
             </div>
 
@@ -61,37 +61,37 @@ const Home = () => {
                 <div data-aos="flip-right" data-aos-duration="2000">
                     <h1 className='font-semibold text-white italic text-center'>Professional Skills</h1>
                 </div>
-                <div className='bg-orange-400 h-1 '>
+                <div className='bg-orange-400 h-1 ' data-aos="fade-right" data-aos-duration="2500">
                 </div>
-                <div className='bg-white h-1 '>
+                <div className='bg-white h-1 ' data-aos="fade-left" data-aos-duration="2500">
                 </div>
-                <div className='grid grid-cols-2 lg:grid-cols-9 gap-3 justify-center mt-4'>
-                    <div data-aos="zoom-in-right" data-aos-duration="2000" className="card rounded-md w-32">
-                        <figure><img className='h-20 w-32' src="https://blog.logrocket.com/wp-content/uploads/2020/12/javascript-custom-events.png" alt="JavaScript" /></figure>
+                <div className='grid grid-cols-2 lg:grid-cols-9 lg:gap-3 justify-center mt-4'>
+                    <div data-aos="zoom-in-right" data-aos-duration="2000" className="card rounded-md w-28">
+                        <figure><img className='h-20 w-28' src="https://blog.logrocket.com/wp-content/uploads/2020/12/javascript-custom-events.png" alt="JavaScript" /></figure>
                     </div>
-                    <div data-aos="zoom-in-right" data-aos-duration="2100" className="card rounded-md w-32">
-                        <figure><img className='h-20 w-32' src="https://www.logixshapers.com/BlogImages/Pros%20and%20Cons%20of%20React%20JS%20and%20React%20Native.png" alt="JavaScript" /></figure>
+                    <div data-aos="zoom-in-right" data-aos-duration="2100" className="card rounded-md w-28">
+                        <figure><img className='h-20 w-28' src="https://www.logixshapers.com/BlogImages/Pros%20and%20Cons%20of%20React%20JS%20and%20React%20Native.png" alt="JavaScript" /></figure>
                     </div>
-                    <div data-aos="zoom-in-right" data-aos-duration="2200" className="card rounded-md w-32">
-                        <figure><img className='h-20 w-32' src="https://www.startechup.com/wp-content/uploads/January-11-2021-Nodejs-What-it-is-used-for-and-when-where-to-use-it-for-your-enterprise-app-development.jpg" alt="JavaScript" /></figure>
+                    <div data-aos="zoom-in-right" data-aos-duration="2200" className="card rounded-md w-28">
+                        <figure><img className='h-20 w-28' src="https://www.startechup.com/wp-content/uploads/January-11-2021-Nodejs-What-it-is-used-for-and-when-where-to-use-it-for-your-enterprise-app-development.jpg" alt="JavaScript" /></figure>
                     </div>
-                    <div data-aos="zoom-in-right" data-aos-duration="2300" className="card rounded-md w-32">
-                        <figure><img className='h-20 w-32' src="https://expressjs.com/images/express-facebook-share.png" alt="JavaScript" /></figure>
+                    <div data-aos="zoom-in-right" data-aos-duration="2300" className="card rounded-md w-28">
+                        <figure><img className='h-20 w-28' src="https://expressjs.com/images/express-facebook-share.png" alt="JavaScript" /></figure>
                     </div>
-                    <div data-aos="zoom-in-right" data-aos-duration="2400" className="card rounded-md w-32">
-                        <figure><img className='h-20 w-32' src="https://www.turing.com/blog/wp-content/uploads/2022/02/Mongo-DB-Features.jpg" alt="JavaScript" /></figure>
+                    <div data-aos="zoom-in-right" data-aos-duration="2400" className="card rounded-md w-28">
+                        <figure><img className='h-20 w-28' src="https://www.turing.com/blog/wp-content/uploads/2022/02/Mongo-DB-Features.jpg" alt="JavaScript" /></figure>
                     </div>
-                    <div data-aos="zoom-in-right" data-aos-duration="2500" className="card rounded-md w-32">
-                        <figure><img className='h-20 w-32' src="https://www.computerhope.com/jargon/h/html-head.jpg" alt="JavaScript" /></figure>
+                    <div data-aos="zoom-in-right" data-aos-duration="2500" className="card rounded-md w-28">
+                        <figure><img className='h-20 w-28' src="https://www.computerhope.com/jargon/h/html-head.jpg" alt="JavaScript" /></figure>
                     </div>
-                    <div data-aos="zoom-in-right" data-aos-duration="2600" className="card rounded-md w-32">
-                        <figure><img className='h-20 w-32' src="https://giuseart.com/wp-content/uploads/2018/07/18101486-css-m%C3%A3-3d-%C4%91%E1%BB%8F.jpg" alt="JavaScript" /></figure>
+                    <div data-aos="zoom-in-right" data-aos-duration="2600" className="card rounded-md w-28">
+                        <figure><img className='h-20 w-28' src="https://giuseart.com/wp-content/uploads/2018/07/18101486-css-m%C3%A3-3d-%C4%91%E1%BB%8F.jpg" alt="JavaScript" /></figure>
                     </div>
-                    <div data-aos="zoom-in-right" data-aos-duration="2700" className="card rounded-md w-32">
-                        <figure><img className='h-20 w-32' src="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-social.png" alt="JavaScript" /></figure>
+                    <div data-aos="zoom-in-right" data-aos-duration="2700" className="card rounded-md w-28">
+                        <figure><img className='h-20 w-28' src="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-social.png" alt="JavaScript" /></figure>
                     </div>
-                    <div data-aos="zoom-in-right" data-aos-duration="2800" className="card rounded-md w-32">
-                        <figure><img className='h-20 w-32' src="https://laravelnews.s3.amazonaws.com/images/tailwindcss-1633184775.jpg" alt="JavaScript" /></figure>
+                    <div data-aos="zoom-in-right" data-aos-duration="2800" className="card rounded-md w-28">
+                        <figure><img className='h-20 w-28' src="https://laravelnews.s3.amazonaws.com/images/tailwindcss-1633184775.jpg" alt="JavaScript" /></figure>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,8 @@ const Home = () => {
                             <div className='my-4'>
                                 <h1 className="text-5xl font-bold">Give & Take</h1>
                                 <p className="py-4">This site is about used products buy and sell.</p>
-                                <button className="btn btn-outline btn-info">Visite Here</button>
+                                <a target='/' href="https://give-and-take-a4fb7.web.app/"><button className="btn btn-outline btn-info">Visite Here</button></a>
+                                <Link to='/giveTake' className='btn btn-outline btn-error ml-2'>View Details</Link>
                             </div>
                         </div>
                     </div>
@@ -124,9 +125,10 @@ const Home = () => {
                         <div className=" flex flex-col md:flex-row-reverse lg:justify-between">
                             <img src={hungryshef} className="max-w-sm rounded-lg shadow-2xl" alt='' />
                             <div className='my-4'>
-                                <h1 className="text-5xl font-bold">Hungry Shef</h1>
+                                <h1 className="text-5xl font-bold">Hungry Chef</h1>
                                 <p className="py-4">This is a cloud food website. Here you can order your custom food.</p>
-                                <button className="btn btn-outline btn-info">Visite Here</button>
+                                <a target='/' href="https://hungry-chef-6caef.web.app/"><button className="btn btn-outline btn-info">Visite Here</button></a>
+                                <Link to='/hungryChef' className='btn btn-outline btn-error ml-2'>View Details</Link>
                             </div>
                         </div>
                     </div>
@@ -139,13 +141,15 @@ const Home = () => {
                             <div className='my-4'>
                                 <h1 className="text-5xl font-bold">Learn Varity Tech</h1>
                                 <p className="py-4">Here you can learn your favorite technology. just choose and learn.</p>
-                                <button className="btn btn-outline btn-info">Visite Here</button>
+                                <a target='/' href="https://b610-learning-platform-bfe6b.web.app/home"> <button className="btn btn-outline btn-info">Visite Here</button></a>
+                                <Link to='/learnTech' className='btn btn-outline btn-error ml-2'>View Details</Link>
                             </div>
                         </div>
                     </div>
                 </div>
 
             </div>
+            <Link to='/blog'><div className='my-4 btn btn-outline w-full btn-xs'>Blog</div></Link>
         </div>
     );
 };
